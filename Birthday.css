@@ -1,0 +1,44 @@
+body{
+    background:rgb(239, 78, 105) ;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    background: rgb(246, 255, 0);
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px;
+}
+p{
+    background: rgb(0, 229, 255);
+    padding: 10px 25px 10px 25px;
+    border-radius: 3px;
+}
+#Love{
+    width: 250px;
+    border-radius: 270px; 
+    border: 6px solid white; 
+}
+.Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gift{
+    margin-top: 20px;
+}
+#Gift{
+    margin: 0px auto;
+    width: 300px;
+    height: 500px;
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(1354044.png);
+}
+#Gift:hover{
+    background-image: url(IMG-20230706-WA0006.jpg);
+    background-size:cover;
+}
